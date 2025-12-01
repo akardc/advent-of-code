@@ -3,6 +3,7 @@ package solutions
 import (
 	"github.com/akardc/advent-of-code/2024/go/solutions/five"
 	"github.com/akardc/advent-of-code/2024/go/solutions/four"
+	"github.com/akardc/advent-of-code/2024/go/solutions/seven"
 	"github.com/akardc/advent-of-code/2024/go/solutions/six"
 )
 
@@ -23,5 +24,9 @@ var All = map[int]Parts{
 	6: {
 		One: six.PartOne,
 		Two: six.PartTwo,
+	},
+	7: {
+		One: seven.PartOne,
+		Two: seven.PartTwo,
 	},
 }
